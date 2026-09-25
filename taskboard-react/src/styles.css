@@ -1,0 +1,16 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #202522;
+  background: #f4f1e9;
+}
+
+body { margin: 0; }
+main, form, section { max-width: 760px; margin: 2rem auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: start; gap: 1rem; }
+label, input, textarea, button { display: block; width: 100%; box-sizing: border-box; margin: .5rem 0; }
+input, textarea, button { padding: .7rem; font: inherit; }
+button { cursor: pointer; background: #1d5c52; color: white; border: 0; }
+ul { list-style: none; padding: 0; }
+li { padding: 1rem 0; border-bottom: 1px solid #d2cec3; }
+li span { float: right; color: #6b746c; }
+[role='alert'] { color: #a32929; }
